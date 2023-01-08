@@ -1,38 +1,1214 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
 .App {
   text-align: center;
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App-main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
+}
+.intro-creator-section{
+  background-color: black;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.header-nav{
+  display: flex;
+  margin-top: 1%;
+  justify-content: space-between;
+  background-color: black;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.intro-section, .creators-swiper-wrapper{
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.faq{
+width: 33px;
+}
+
+#active{
+  border: 1px solid grey;
+  padding: 4px;
+  border-radius: 7px;
+  outline: none;
+}
+
+.progress {
+  background: linear-gradient(to right, #0742BA 0%, #FFAE00 40%, #FFAE00 40%, #0742BA 100%);  
+  border-radius: 100px;
+  width: 193px;
+  height: 4px;
+  left: 123px;
+  top: 40px;
+  transition:  450ms ease-in;
+  -webkit-appearance: none;
+}
+
+.progress::-webkit-slider-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  cursor: ew-resize;
+  background: #C99729;
+}
+
+.fq-support-wrapper{
+  display: flex;
+}
+
+button{
+  cursor: pointer;
+}
+
+.support, .faq{
+  width: 65px;
+height: 24px;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+margin-right: 12%;
+text-decoration: none;
+}
+
+.logo{
+  width: 119px;
+height: 33.73px;
+}
+
+.intro-text-1{
+  width: 674px;
+height: 240px;
+font-style: normal;
+font-weight: 600;
+font-size: 52px;
+line-height: 80px;
+}
+.money, .see-all{
+  background: linear-gradient(90deg, #0742BA 0%, #FFAE00 104.05%);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;}
+
+.intro-text-2{
+  width: 567px;
+height: 80px;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 40px;
+}
+
+.create-acc-btn, .how-it-works-btn{  
+  width: 217px;
+  height: 64px;
+  background: linear-gradient(270deg, #3739FF 0%, #FFAE00 102.34%);
+  border-radius: 10px;  
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+#how{
+  background: black;
+  border: white 2px solid;
+  margin-left: 2%;
+}
+
+.range-text{
+  width: 83px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+
+.range-wrapper{
+  margin-right: 32%;
+  margin-top: 5%;
+  padding: 4%;
+  background: linear-gradient(black, black) padding-box,
+  linear-gradient(to right, #FFAE00, #3739FF) border-box;
+  border-radius: 13px;
+border: 3px solid transparent;
+}
+
+.intro-wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.earn-text{
+  position: absolute;
+    bottom: 0;
+    margin-left: 2%;
+}
+
+.tiktok{
+  margin: 3%;
+}
+
+.thick-img{
+  left: 5.52%;
+right: 5.52%;
+top: 7.42%;
+bottom: 7.42%;
+height: 2%;
+}
+
+.creator-img{
+  width: 214px;
+  height: 214px;
+}
+.download-app-wrapper{
+  background-color: white; 
+  width: 100%;
+  text-align: left; 
+  display: flex; 
+  justify-content: space-between;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  
+}
+
+.sign-as-creator-wrapper{
+  margin-left: 10%;
+}
+
+#sign-up-as-promoter{
+  margin-right: 10%;
+}
+
+#sign-up-as-promoter h3{
+ width: 388px;
+}
+#sign-up-as-promoter p{
+  height: 140px;
+}
+#sign-up-as-promoter button{
+ width: 238px;
+}
+#sign-up-as-promoter img{
+ margin-top: 6%;
+}
+
+
+
+.download-app-wrapper button{
+
+padding: 20px 32px;
+gap: 10px;
+width: 224px;
+height: 64px;
+background: #3739FF;
+border-radius: 5px;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+border: none;
+color: #FFFFFF;
+}
+
+.download-app-wrapper img{
+  width: 378px;
+height: 378px;
+}
+
+.download-app-wrapper p{
+  width: 458px;
+height: 105px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+}
+
+.download-app-wrapper h3{
+  width: 140px;
+height: 35px;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 35px;
+}
+
+footer{
   color: white;
+  width: 99.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #121316;
+  box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-logo-wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: #1A1C24 1px solid;
+}
+.footer-logo-wrapper img{
+  width: 119px;
+height: 33.73px;
+}
+.social-media-icons{
+  display: flex;
+  justify-content: space-between;
+}
+.socials{
+padding: 7px;
+width: 20px;
+height: 20px;
+color: black;
+background: #FFFFFF;
+border-radius: 30px;
+top: 12.46%;
+bottom: 12.78%;
+border: 2px solid #121316;
+margin: 2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.copywrite-tikearn{
+width: 124px;
+height: 80px;
+font-weight: 400;
+font-size: 16px;
+line-height: 80px;
+}
+
+.footer-terms,
+.footer-policy{
+  width: 164px;
+height: 80px;
+color: white;
+text-decoration: none;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 80px;
+}
+
+.faqs-wrapper{
+  background-color: white;
+  color: black;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2%;
+}
+
+.faqs-wrapper h3{
+  width: 802px;
+height: 80px;
+margin: 0 auto;
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 80px;
+text-align: center;
+background: linear-gradient(90deg, #3739FF -14.84%, #FFAE00 112.91%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.any-question{
+  width: 691px;
+height: 48px;
+left: 607px;
+top: 440px;
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 48px;
+font-family: 'Roboto';
+text-align: center;
+margin:  0 auto;
+color: rgba(0, 0, 0, 0.5);
+}
+
+.faq-show-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  padding: 1px;
+  border-radius: 50px;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+
+.faq-show-section p{
+  width: 553px;
+height: 48px;
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 48px;
+text-align: center;
+color: #000000;
+}
+
+.faq-show-section button{
+  padding: 37px;
+  font-weight: 400;
+font-size: 21px;
+gap: 10px;
+width: 98px;
+height: 98px;
+color: white;
+background: #000000;
+border-radius: 300px;
+}
+
+.faq-answers{
+  width: 1009px;
+height: 144px;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 48px;
+margin:  0 auto;
+color: #000000;
+}
+.creators-header{
+width: 368px;
+height: 80px;
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 80px;
+margin: 0 auto;
+text-align: center;
+
+background: linear-gradient(90deg, #3739FF -14.84%, #FFAE00 112.91%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.creators-wrapper{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.creators-wrapper img{
+ margin-bottom: 5%;
+}
+
+.support-wrapper{
+  background-color: white;
+  color: black;
+padding-bottom: 5%;
+}
+
+.support-wrapper h3{
+  width: 673px;
+height: 80px;
+left: 616px;
+top: 329px;
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 80px;
+margin:  0 auto;
+text-align: center;
+background: linear-gradient(90deg, #3739FF -14.84%, #FFAE00 112.91%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.form-fill-text{
+  width: 529px;
+height: 48px;
+left: 688px;
+top: 440px;
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 48px;
+margin:  0 auto;
+text-align: center;
+color: rgba(0, 0, 0, 0.5);
+}
+
+.support-wrapper input{
+  width: 60%;
+  height: 70px;
+  border-radius: 20px;
+  outline: none;
+  border: gray 1px solid;
+}
+.support-wrapper button{
+  width: 60%;
+  height: 70px;
+  border-radius: 20px;
+  outline: none;
+  color: white;
+  background-color: black;
+  font-weight: 400;
+font-size: 31px;
+}
+
+.support-wrapper textarea{
+  width: 60%;
+  height: 160px;
+  border-radius: 20px;
+  outline: none;
+  border: gray 1px solid;
+}
+
+.form p{
+  text-align: left;
+  margin-left: 20%;
+  width: 104px;
+height: 48px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 48px;
+margin-bottom: -1%;
+color: #000000;
+}
+
+.support-wrapper input::placeholder,
+.support-wrapper textarea::placeholder{
+  width: 434px;
+height: 48px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 48px;
+color: rgba(0, 0, 0, 0.5);
+padding-left: 2%;
+}
+
+/* STYLING FOR PHONES */
+@media (max-width: 600px){
+
+ .logo{
+        margin-top: 10px;
+      }
+
+
+/* drop down*/
+.dropdown-content {
+  display: none;
+  margin: 0 auto;
+  position: absolute;
+  margin-left: -78%;
+  width: 90%;
+  background-color: black;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: gray 1px solid;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.setOpen {
+display: none;
+}
+
+
+    .fq-support-wrapper {
+      display: none;
+    }
+
+
+  .intro-wrapper{
+    display: block;
+    padding-left: 8%;
+    padding-right: 8%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .intro-text-1{
+    width: 354px;
+  height: 240px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 50px;
+  }
+
+  .intro-text-2{
+    width: 367px;
+  height: 80px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: -40px;
+  margin-bottom: 15%;
+  }
+
+  .create-acc-btn, .how-it-works-btn{  
+    width: 168px;
+    height: 64px;
+    background: linear-gradient(270deg, #3739FF 0%, #FFAE00 102.34%);
+    border-radius: 10px;  
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+
+  .progress {
+  background: linear-gradient(to right, #0742BA 0%, #FFAE00 40%, #FFAE00 40%, #0742BA 100%);  border-radius: 100px;
+  width: 173px;
+  height: 4px;
+  left: 123px;
+  top: 40px;
+  transition:  450ms ease-in;
+  -webkit-appearance: none;
+}
+
+.range-wrapper{
+  margin:  0 auto;
+  margin-top: 5%;
+}
+
+.range-text{
+  width: 83px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 20px;
+
+color: #FFFFFF;
+}
+
+.earn-text{
+  position: relative;
+}
+
+.thick-img{
+  left: 0.52%;
+}
+
+.tiktok{
+  margin: 0%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.creator-img{
+  width: 74px;
+  height: 74px;
+}
+
+.download-app-wrapper{
+  background-color: white; 
+  width: 100%;
+  text-align: center; 
+  display: block; 
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.sign-as-creator-wrapper{
+  margin: 0 auto;
+}
+
+#sign-up-as-promoter{
+  margin-right: 0%;
+}
+
+#sign-up-as-promoter h3{
+ width: 388px;
+}
+#sign-up-as-promoter p{
+  height: 140px;
+  margin-bottom: -5%;
+}
+#sign-up-as-promoter button{
+ width: 238px;
+ margin-top: -10%;
+}
+#sign-up-as-promoter img{
+ margin-top: 4%;
+}
+
+.download-app-wrapper button{
+padding: 20px 32px;
+gap: 10px;
+width: 224px;
+height: 64px;
+background: #3739FF;
+border-radius: 5px;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+margin-top: -15%;
+margin-bottom: 10%;
+border: none;
+color: #FFFFFF;
+}
+
+.download-app-wrapper img{
+  width: 270px;
+height: 270px;
+margin: 0 auto;
+}
+
+.download-app-wrapper p{
+  width: 298px;
+height: 105px;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+margin:  0 auto;
+}
+
+.download-app-wrapper h3{
+  width: 100px;
+height: 35px;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 5px;
+margin: 0 auto;
+margin-top: 5%;
+}
+
+footer{
+  color: white;
+  width: 99.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #121316;
+  box-sizing: border-box;
+}
+
+.footer-logo-wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: #1A1C24 1px solid;
+}
+.footer-logo-wrapper img{
+  width: 119px;
+height: 33.73px;
+}
+.social-media-icons{
+  display: flex;
+  justify-content: space-between;
+}
+.socials{
+padding: 7px;
+width: 20px;
+height: 20px;
+color: black;
+background: #FFFFFF;
+border-radius: 30px;
+top: 12.46%;
+bottom: 12.78%;
+border: 2px solid #121316;
+margin: 2%;
+}
+
+.copywrite-tikearn{
+width: 104px;
+height: 80px;
+margin-top: -0.2%;
+font-weight: 400;
+font-size: 10px;
+line-height: 80px;
+}
+
+.footer-terms,
+.footer-policy{
+  width: 104px;
+height: 80px;
+color: white;
+text-decoration: none;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 80px;
+}
+
+.creators-wrapper{
+  min-height: 90vh;
+}
+
+
+
+.faqs-wrapper{
+  background-color: white;
+  color: black;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2%;
+}
+
+.faqs-wrapper h3, .support-wrapper h3{
+  width: 302px;
+height: 80px;
+margin: 0 auto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+background: linear-gradient(90deg, #3739FF -14.84%, #FFAE00 112.91%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.any-question, .form-fill-text{
+  width: 291px;
+height: 48px;
+left: 607px;
+top: 440px;
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 28px;
+font-family: 'Roboto';
+text-align: center;
+margin:  0 auto;
+margin-bottom: 5%;
+margin-top: -3%;
+color: rgba(0, 0, 0, 0.5);
+}
+
+.faq-show-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  padding: 1px;
+  border-radius: 50px;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+
+.faq-show-section p{
+  width: 353px;
+height: 48px;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+color: #000000;
+}
+
+.faq-show-section button{
+  padding: 37px;
+  font-weight: 400;
+font-size: 21px;
+gap: 10px;
+width: 98px;
+height: 98px;
+color: white;
+background: #000000;
+border-radius: 300px;
+}
+
+.faq-answers{
+  width: 309px;
+height: 144px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+margin:  0 auto;
+color: #000000;
+}
+.support-wrapper h3{
+  padding-top: 5%;
+}
+
+
+
+  
+}
+/* STYLE FOR TABLETS */
+@media only screen and (max-width: 970px) and (min-width: 600px){
+
+
+  .intro-text-1{
+    width: 354px;
+  height: 240px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 50px;
+  }
+
+  .intro-text-2{
+    width: 367px;
+  height: 80px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: -40px;
+  margin-bottom: 15%;
+  }
+
+  .create-acc-btn, .how-it-works-btn{  
+    width: 168px;
+    height: 64px;
+    background: linear-gradient(270deg, #3739FF 0%, #FFAE00 102.34%);
+    border-radius: 10px;  
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+
+  .progress {
+    background: linear-gradient(to right, #0742BA 0%, #FFAE00 40%, #FFAE00 40%, #0742BA 100%);  
+  border-radius: 100px;
+  width: 173px;
+  height: 4px;
+  left: 123px;
+  top: 40px;
+  transition:  450ms ease-in;
+  -webkit-appearance: none;
+}
+
+.range-wrapper{
+  margin:  0 auto;
+  margin-top: 5%;
+}
+
+.range-text{
+  width: 83px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 20px;
+
+color: #FFFFFF;
+}
+
+.earn-text{
+  position: relative;
+}
+
+.thick-img{
+  left: 0.52%;
+  
+  
+}
+
+.tiktok{
+  margin: 0%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+ 
+}
+.tik-img{
+  width: 80%;
+}
+
+.creator-img{
+  width: 154px;
+  height: 154px;
+}
+
+.download-app-wrapper{
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+
+
+.sign-as-creator-wrapper{
+  margin: 0 auto;
+}
+
+#creator-h3{
+ margin-left: -0px;
+}
+
+
+#sign-up-as-promoter{
+  margin-right: 0%;
+}
+
+#sign-up-as-promoter h3{
+ width: 388px;
+}
+#sign-up-as-promoter p{
+  height: 140px;
+  margin-bottom: -5%;
+}
+#sign-up-as-promoter button{
+ width: 238px;
+ margin-top: -10%;
+}
+#sign-up-as-promoter img{
+ margin-top: 4%;
+}
+
+
+
+.download-app-wrapper button{
+
+padding: 20px 32px;
+gap: 10px;
+width: 224px;
+height: 64px;
+background: #3739FF;
+border-radius: 5px;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+margin-top: -15%;
+margin-bottom: 10%;
+border: none;
+color: #FFFFFF;
+}
+
+.download-app-wrapper img{
+  width: 270px;
+height: 270px;
+margin: 0 auto;
+}
+
+.download-app-wrapper p{
+  width: 298px;
+height: 105px;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+}
+
+.download-app-wrapper h3{
+  width: 100px;
+height: 35px;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 5px;
+margin: 0 auto;
+margin-top: 5%;
+}
+
+
+
+
+footer{
+  color: white;
+  width: 99.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #121316;
+  box-sizing: border-box;
+}
+
+.footer-logo-wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: #1A1C24 1px solid;
+}
+.footer-logo-wrapper img{
+  width: 119px;
+height: 33.73px;
+}
+.social-media-icons{
+  display: flex;
+  justify-content: space-between;
+}
+.socials{
+padding: 7px;
+width: 20px;
+height: 20px;
+color: black;
+background: #FFFFFF;
+border-radius: 30px;
+top: 12.46%;
+bottom: 12.78%;
+border: 2px solid #121316;
+margin: 2%;
+}
+
+.copywrite-tikearn{
+width: 104px;
+height: 80px;
+margin-top: -0.2%;
+font-weight: 400;
+font-size: 10px;
+line-height: 80px;
+}
+
+.footer-terms,
+.footer-policy{
+  width: 104px;
+height: 80px;
+color: white;
+text-decoration: none;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 80px;
+}
+
+.creators-wrapper{
+  min-height: 90vh;
+}
+
+
+
+.faqs-wrapper{
+  background-color: white;
+  color: black;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2%;
+}
+
+.faqs-wrapper h3, .support-wrapper h3{
+  width: 352px;
+height: 80px;
+margin: 0 auto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+background: linear-gradient(90deg, #3739FF -14.84%, #FFAE00 112.91%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.any-question, .form-fill-text{
+  width: 291px;
+height: 48px;
+left: 607px;
+top: 440px;
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 28px;
+font-family: 'Roboto';
+text-align: center;
+margin:  0 auto;
+margin-bottom: 5%;
+margin-top: -3%;
+color: rgba(0, 0, 0, 0.5);
+}
+
+.faq-show-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  padding: 1px;
+  border-radius: 50px;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+
+.faq-show-section p{
+  width: 393px;
+height: 48px;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+color: #000000;
+}
+
+.faq-show-section button{
+  padding: 37px;
+  font-weight: 400;
+font-size: 21px;
+gap: 10px;
+width: 98px;
+height: 98px;
+color: white;
+background: #000000;
+border-radius: 300px;
+}
+
+.faq-answers{
+  width: 539px;
+height: 144px;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+margin:  0 auto;
+color: #000000;
+}
+.support-wrapper h3{
+  padding-top: 5%;
+}
+
+  .dropdown{
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 600px) {
+  .dropdown {
+    display: none;
   }
 }
+
+
