@@ -38,7 +38,4 @@ promote their content at a very affordable rate.</p>
   )
 }
 
-{/* <input type='range' onChange={Get} /> */}
-{/*  */}
-
 export default Intro

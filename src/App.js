@@ -68,9 +68,9 @@ function App() {
           <img src={Logo} alt="Tik Earn Logo" className='footer-logo' />
           </Link>
           <div className='social-media-icons'>
-            <a href='https://twitter.com/' target='_blank'> <FiTwitter className='socials' /></a>
-            <a href='https://twitter.com/' target='_blank'><AiOutlineInstagram className='socials'  /></a>
-            <a href='https://twitter.com/' target='_blank'><BiMessageAltDetail className='socials'  /></a>
+            <a href='https://twitter.com/' target='_blank' rel="noreferrer"> <FiTwitter className='socials' /></a>
+            <a href='https://twitter.com/' target='_blank' rel="noreferrer"><AiOutlineInstagram className='socials'  /></a>
+            <a href='https://twitter.com/' target='_blank' rel="noreferrer"><BiMessageAltDetail className='socials'  /></a>
           </div>
 
           </div>
