@@ -12,7 +12,7 @@ const DownloadApps = () => {
         <button>Signup as a Creator</button>
       </div>
       <div id='sign-up-as-promoter'>
-        <h3>Promoter/Advertisers</h3>
+        <h3 className='promoter-h3'>Advertisers</h3>
         <p>These are people who want to promote their craft, business, or products. The content for promotion can be a sound or a video (in a format supported by TikTok).</p>
         <button>Signup as a Promoter</button><br></br>
         <img src={star8} alt="phone" />

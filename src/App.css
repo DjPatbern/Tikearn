@@ -113,6 +113,8 @@ font-size: 20px;
 line-height: 40px;
 }
 
+
+
 .create-acc-btn, .how-it-works-btn{  
   width: 217px;
   height: 64px;
@@ -511,10 +513,71 @@ padding-left: 2%;
 }
 
 /* STYLING FOR PHONES */
+
+/* STYLING FOR VERY SMALL PHONES */
+
+
+
+@media only screen and (max-width: 408px) and (min-width: 200px){
+  .intro-text-1{
+  max-width: 90%;
+  }
+
+  .intro-btns{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+  .intro-text-2{
+    max-width: 100%;
+    padding-top: 80px;
+  }
+  
+  .creators-wrapper{
+    grid-template-columns: auto auto auto;
+  }
+
+  .creators-header{
+    max-width: 100%;
+  }
+  .progress {
+    max-width: 45%;
+  }
+
+  .tik-img{
+    max-width: 80%;
+  }
+
+  .download-app-wrapper p{
+    max-width: 80%;
+  }
+
+  .intro-btns{
+    padding-top: 70px;
+  }
+
+  .faqs-wrapper p{
+    max-width: 100%;
+  }
+
+  .promoter-h3{
+    max-width: 80%;
+    font-size: 10px;
+  }
+
+
+}
+
 @media (max-width: 600px){
 
  .logo{
         margin-top: 10px;
+      }
+
+      .intro-btns{
+        display: flex;
+        justify-content: space-between;
       }
 
 
@@ -523,7 +586,7 @@ padding-left: 2%;
   display: none;
   margin: 0 auto;
   position: absolute;
-  margin-left: -78%;
+  margin-left: -77.5%;
   width: 90%;
   background-color: black;
 }
@@ -828,7 +891,7 @@ color: rgba(0, 0, 0, 0.5);
   padding: 1px;
   border-radius: 50px;
   justify-content: space-between;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
 .faq-show-section p{
@@ -836,10 +899,11 @@ color: rgba(0, 0, 0, 0.5);
 height: 48px;
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
-line-height: 28px;
-text-align: center;
+font-size: 14px;
+line-height: 20px;
+text-align: left;
 color: #000000;
+margin-left: 9px;
 }
 
 .faq-show-section button{
@@ -1159,7 +1223,7 @@ color: rgba(0, 0, 0, 0.5);
   padding: 1px;
   border-radius: 50px;
   justify-content: space-between;
-  margin-bottom: 2%;
+  margin-bottom: 9%;
 }
 
 .faq-show-section p{
@@ -1209,6 +1273,13 @@ color: #000000;
   .dropdown {
     display: none;
   }
+}
+
+@media only screen and (max-width: 1160px) and (min-width: 973px){
+  .tiktok{
+    display: none;
+  }
+
 }
 
 

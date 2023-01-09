@@ -19,8 +19,11 @@ const Intro = () => {
         </h3>
         <p className='intro-text-2'>Tikearn also makes it easier for promoters/advertisers to
 promote their content at a very affordable rate.</p>
-        <button className='create-acc-btn'>Create an account</button>
-        <button className='how-it-works-btn' id='how'>▶ How it works</button><br></br>
+<div className='intro-btns'>
+<button className='create-acc-btn'>Create an account</button>
+        <button className='how-it-works-btn' id='how'>▶ How it works</button>
+</div>
+<br></br>
        <div className='range-wrapper'><span className='range-text'>Views: {val * 100}</span><input type="range"  min="0" max="100"  className="progress" onChange={Get} />  <span className='range-text'>Earnings: ${val}</span></div>       
         </div>
         <div className='tiktok'>
