@@ -46,6 +46,10 @@ width: 33px;
   outline: none;
 }
 
+button{
+  outline: none;
+}
+
 .progress {
   background: linear-gradient(to right, #0742BA 0%, #FFAE00 40%, #FFAE00 40%, #0742BA 100%);  
   border-radius: 100px;
@@ -533,6 +537,12 @@ padding-left: 2%;
     max-width: 100%;
     padding-top: 80px;
   }
+
+  /* .support-wrapper input,
+  .support-wrapper textarea,
+  .support-wrapper button{
+    width: 85%;
+  } */
   
   .creators-wrapper{
     grid-template-columns: auto auto auto;
@@ -615,8 +625,15 @@ display: none;
     .fq-support-wrapper {
       display: none;
     }
+    .support-wrapper input,
+    .support-wrapper textarea,
+    .support-wrapper button{
+      width: 85%;
+    }
 
-
+    .form p{
+      margin-left: 8%;
+    }
   .intro-wrapper{
     display: block;
     padding-left: 8%;
