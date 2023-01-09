@@ -12,7 +12,7 @@ const Faqs = () => {
   return (
     <>
           <Helmet>
-        <title>FAQs - GitHub API App</title>
+        <title>FAQs - TikEarn</title>
         <meta
           name="description"
           content="TikEarn Frequently asked questions and answers"
