@@ -47,10 +47,10 @@ function App() {
             toggled={isOpen}
           />
           <div className={isOpen ? "dropdown-content" : "setOpen"}>
-            <a href="/" className='phone-nav'>HOME</a>
-            <a href="/faqs" className='phone-nav'>FAQs</a>
-            <a href="/support" className='phone-nav'>SUPPORT</a>
-            <a href="/allcreators" className='phone-nav'>CREATORS</a>
+            <a href="/" rel="noreferrer" className='phone-nav'>HOME</a>
+            <a href="/faqs" rel="noreferrer" className='phone-nav'>FAQs</a>
+            <a href="/support" rel="noreferrer" className='phone-nav'>SUPPORT</a>
+            <a href="/allcreators" rel="noreferrer" className='phone-nav'>CREATORS</a>
           </div>
         </div>
         </nav>
