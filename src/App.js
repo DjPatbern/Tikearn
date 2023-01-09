@@ -75,7 +75,7 @@ function App() {
 
           </div>
           <div style={{display: "flex", justifyContent: "space-between"}}>
-         <p className='copywrite-tikearn'> &#169; 2022 TikEarn</p>
+         <p className='copywrite-tikearn'> &#169; 2023 TikEarn</p>
          <div style={{display: "flex", justifyContent: "space-between"}}>
           <Link to='/' className='footer-terms'>Terms & Conditions</Link>
           <Link to='/' className='footer-policy'>Privacy policy</Link>
