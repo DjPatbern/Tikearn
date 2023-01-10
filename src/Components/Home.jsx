@@ -21,7 +21,7 @@ const Home = () => {
 const TopCreators =() =>{
     return(
         <div className='creators-swiper-wrapper'>
-        <div style={{display: "flex", justifyContent: "space-between"}}>
+        <div style={{display: "flex", justifyContent: "space-between", marginBottom: '5%'}}>
             <p>Top Creators</p>
             <Link to='/allcreators' className='see-all'>See all</Link>
         </div>

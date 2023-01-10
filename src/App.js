@@ -23,10 +23,8 @@ function App() {
 
   const location = useLocation();
 
-  //destructuring pathname from location
   const { pathname } = location;
 
-  //Javascript split method to get the name of the path in array
   const splitLocation = pathname.split("/");
 
 
